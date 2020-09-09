@@ -224,7 +224,7 @@ module.exports = Mn.View.extend({
                     text:  input
                 };
             },
-            createFilter: /^(?:\.)?(?:[^.*]+\.?)+[^.]$/
+            createFilter: /^(?:[^.]+\.?)+[^.]$/
         });
 
         // Access Lists
